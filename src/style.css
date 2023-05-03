@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #fcf3ec;
+    
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    border-bottom: 1px solid #8b4513;    
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    color: #8b4513;
+}
+
+.restText {
+    font-size: 20px;
+    margin-left: 400px;
+}
+
+.lists {
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+ul {
+    display: inline-flex;
+    gap: 60px;
+}
+
+.ul, li, a  {
+    text-decoration: none;
+    list-style: none;
+    color: #8b4513;
+}
+
+.mainContent {
+    height: 90vh;
+}
+
+img {
+    height: 90vh;
+    width: 50vw;
+}
+
+.secHalf {
+    display: flex;
+    background: url('./cowlogo.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.tryFood {
+    font-size: 60px;
+    text-align: center;
+}
+
+.orderCtn {
+    margin-top: 150px;
+}
+
+.orderBtn {
+    text-align: center;
+    font-size: 20px;
+    padding: 22px 42px;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 300px;
+    background-color: #8b4513;
+    color: #fcf3ec;
+    border: none;
+
+}
